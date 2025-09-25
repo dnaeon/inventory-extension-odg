@@ -3,7 +3,7 @@ services:
   postgres:
     ports:
       - 5432:5432
-    image: postgres:17.4-bookworm
+    image: postgres:17.6-bookworm
     environment:
       POSTGRES_USER: inventory
       POSTGRES_PASSWORD: p4ssw0rd
